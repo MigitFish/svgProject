@@ -1,0 +1,13 @@
+body{
+  background-color: dimGray;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  font-size: 32px;
+  font-family: 'Arvo', serif;
+}
+p{
+  font-size: 16px;
+  font-family: 'Arvo', serif;
+  color: white;
+}

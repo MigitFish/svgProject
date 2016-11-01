@@ -1,0 +1,81 @@
+<html>
+<head>
+   <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+   <link rel="stylesheet" href="svgProject.css">
+   <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+
+   <title>
+     SVG Drawing Project
+   </title>
+</head>
+<body>
+  <h1> New Drawing Poject with SVG</hi>
+    <p>
+      For this project I will be drawing a picutre of a person comming home as the moon is rising . I wanted to draw this picture cause I</br>
+      didn't know what to do. The setting for the image is a person comming home from a long day of work as the moon is rising.
+    </p>
+
+    <!-- begin="car.end" -->
+      <svg width="80%" viewBox="0 0 600 400" style="background-color: darkblue">
+
+
+
+        <rect x="0" y="0" width="600" height="400" fill="darkblue"> <animate attributeName="fill" from="darkblue" to="skyblue" dur="5s" fill="freeze" begin="circle1.end" /></rect>
+
+          <rect  x="10" y="10" width="10" height="10" fill="red" ><animate id="press" attributeName="fill" from="red" to="black" dur="3s" fill="freeze" begin="click" /></rect>
+
+        <circle  cx="500" cy="85" r="55" fill="gray" opactiy="1">
+        <animate id="circle1"attributeName="cy" from="85" to="500" dur="9s" fill="freeze" begin="press.end"/><animate attributeName="opacity" from="1" to="0" dur="11s" begin="press.end"/>
+      </circle>
+
+        <circle  cx="500" cy="500" r="55" fill="yellow">
+        <animate id="circle2" attributeName="cy" from="500" to="85" dur="8s" fill="freeze" begin="circle1.end"/><animate attributeName="opacity" from="0" to="1" dur="11s" begin="circle1.end"/>
+      </circle>
+
+
+      <circle cx="134" cy="164" fill="white" r="3"><animate attributeName="opacity" from="1" to="0" dur="18s" begin="press.end" fill="freeze" /></circle>
+      <circle cx="235" cy="101" fill="white" r="3"><animate attributeName="opacity" from="1" to="0" dur="18s" begin="press.end" fill="freeze"/></circle>
+      <circle cx="545" cy="156" fill="white" r="3"><animate attributeName="opacity" from="1" to="0" dur="18s" begin="press.end"  fill="freeze"/></circle>
+      <circle cx="162" cy="243" fill="white" r="3"><animate attributeName="opacity" from="1" to="0" dur="18s" begin="press.end" fill="freeze"/></circle>
+      <circle cx="295" cy="178" fill="white" r="3"><animate attributeName="opacity" from="1" to="0" dur="18s" begin="press.end" fill="freeze"/></circle>
+      <circle cx="493" cy="210" fill="white" r="3"><animate attributeName="opacity" from="1" to="0" dur="18s" begin="press.end" fill="freeze"/></circle>
+      <circle cx="270" cy="122" fill="white" r="3"><animate attributeName="opacity" from="1" to="0" dur="18s" begin="press.end" fill="freeze"/></circle>
+      <circle cx="302" cy="98" fill="white" r="3"><animate attributeName="opacity" from="1" to="0" dur="18s" begin="press.end" fill="freeze"/></circle>
+      <circle cx="345" cy="137" fill="white" r="3"><animate attributeName="opacity" from="1" to="0" dur="18s" begin="press.end" fill="freeze" /></circle>
+      <circle cx="190" cy="70" fill="white" r="3"><animate attributeName="opacity" from="1" to="0" dur="18s" begin="press.end" fill="freeze"/></circle>
+      <circle cx="534" cy="180" fill="white" r="3"><animate attributeName="opacity" from="1" to="0" dur="18s" begin="press.end" fill="freeze"/></circle>
+      <circle cx="429" cy="150" fill="white" r="3"><animate attributeName="opacity" from="1" to="0" dur="18s" begin="press.end" fill="freeze"/></circle>
+      <circle cx="14" cy="164" fill="white" r="3"><animate attributeName="opacity" from="1" to="0" dur="18s" begin="press.end" fill="freeze" /></circle>
+      <circle cx="75" cy="101" fill="white" r="3"><animate attributeName="opacity" from="1" to="0" dur="18s" begin="press.end" fill="freeze"/></circle>
+      <circle cx="45" cy="156" fill="white" r="3"><animate attributeName="opacity" from="1" to="0" dur="18s" begin="press.end"  fill="freeze"/></circle>
+
+
+      <rect x="0" y="340" fill="white" width="600" height="75" />
+      <polygon points="100,180 80,235 120,235 " fill="green"/>
+      <polygon points="100,230 70,255 130,255 " fill="green"/>
+      <polygon points="100,240 60,295 140,295 " fill="green"/>
+      <rect x="90" y="295" width="20" height="45" fill="chocolate" />
+
+      <rect x="0" y="340" fill="white" width="600" height="75" />
+      <polygon points="450,180 430,235 470,235 " fill="green"/>
+      <polygon points="450,230 420,255 480,255 " fill="green"/>
+      <polygon points="450,240 410,295 490,295 " fill="green"/>
+      <rect x="440" y="295" width="20" height="45" fill="chocolate" />
+
+      <circle cx="300" cy="220" r="20" fill="white" ><animate attributeName="r" from="20" to="0" dur="10s" begin="circle2.end"/></circle>
+      <circle cx="300" cy="260" r="25" fill="white" ><animate/></circle>
+      <circle cx="300" cy="310" r="30" fill="white" ><animate/></circle>
+      <circle cx="290" cy="220" r="4" fill="black" />
+      <circle cx="310" cy="220" r="4" fill="black" />
+      <circle cx="300" cy="260" r="4" fill="black" />
+      <circle cx="300" cy="310" r="4" fill="black" />
+
+
+      </svg>
+</body>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+</body>
+</html>
