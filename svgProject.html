@@ -62,13 +62,17 @@
       <polygon points="450,240 410,295 490,295 " fill="green"/>
       <rect x="440" y="295" width="20" height="45" fill="chocolate" />
 
-      <circle cx="300" cy="220" r="20" fill="white" ><animate attributeName="r" from="20" to="0" dur="10s" begin="circle2.end"/></circle>
-      <circle cx="300" cy="260" r="25" fill="white" ><animate/></circle>
-      <circle cx="300" cy="310" r="30" fill="white" ><animate/></circle>
-      <circle cx="290" cy="220" r="4" fill="black" />
-      <circle cx="310" cy="220" r="4" fill="black" />
-      <circle cx="300" cy="260" r="4" fill="black" />
-      <circle cx="300" cy="310" r="4" fill="black" />
+      <circle cx="300" cy="220" r="20" fill="white" ><animate id="hee" attributeName="r" from="20" to="0" dur="10s" begin="circle2.end"/><animate attributeName="cy" from="220" to="260" dur="5s" begin="circle2.end" /> </circle>
+      <circle cx="300" cy="260" r="25" fill="white" ><animate id="haw" attributeName="r" from="25" to="0" dur="10s" begin="circle2.end"/><animate attributeName="cy" from="260" to="300" dur="5s" begin="circle2.end" /></circle>
+      <circle cx="300" cy="310" r="30" fill="white" ><animate id="naw" attributeName="r" from="30" to="0" dur="10s" begin="circle2.end"/><animate attributeName="cy" from="310" to="330" dur="5s" begin="circle2.end" /></circle>
+      <circle cx="290" cy="220" r="4" fill="black" ><animate attributeName="cy" from="220" to="350" dur="2s" begin="hee.end" fill="freeze"/><animate attributeName="cy" from="220" to="350" dur="2s" begin="hee.end" fill="freeze"/>
+        <animate attributeName="cx" from="290" to="300" dur="5s" begin="circle2.end"/><animate attributeName="cy" from="300" to="30" dur="5s" begin="circle2.end"/></circle>
+      <circle cx="310" cy="220" r="4" fill="black" ><animate attributeName="cy" from="220" to="350" dur="2s" begin="hee.end" fill="freeze"/><animate attributeName="cy" from="220" to="350" dur="2s" begin="hee.end" fill="freeze"/>
+        <animate attributeName="cx" from="290" to="300" dur="5s" begin="circle2.end"/><animate attributeName="cy" from="300" to="30" dur="5s" begin="circle2.end"/></circle>
+      <circle cx="300" cy="260" r="4" fill="black" ><animate attributeName="cy" from="260" to="350" dur="2s" begin="haw.end" fill="freeze"/><animate attributeName="cy" from="220" to="350" dur="2s" begin="hee.end" fill="freeze"/>
+        <animate attributeName="cy" from="300" to="300" dur="5s" begin="circle2.end"/></circle>
+      <circle cx="300" cy="310" r="4" fill="black" ><animate attributeName="cy" from="310" to="350" dur="2s" begin="naw.end" fill="freeze"/><animate attributeName="cy" from="220" to="350" dur="2s" begin="hee.end" fill="freeze"/>
+        <animate attributeName="cy" from="300" to="30" dur="5s" begin="circle2.end"/></circle>
 
 
       </svg>
