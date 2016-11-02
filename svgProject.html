@@ -24,6 +24,11 @@
 
           <rect  x="10" y="10" width="10" height="10" fill="red" ><animate id="press" attributeName="fill" from="red" to="black" dur="3s" fill="freeze" begin="click" /></rect>
 
+          <polygon points="300,40 50,340 550,340" fill="lightSlateGray"/>
+          <!-- <polygon points="300,40 50,340 550,340" fill="white"/> -->
+          <!--<polygon points="300,40 50,340 550,340" fill="white"/> -->
+          <polygon points="300,40 272,75 328,75" fill="white"/>
+
         <circle  cx="500" cy="85" r="55" fill="gray" opactiy="1">
         <animate id="circle1"attributeName="cy" from="85" to="500" dur="9s" fill="freeze" begin="press.end"/><animate attributeName="opacity" from="1" to="0" dur="11s" begin="press.end"/>
       </circle>
@@ -33,21 +38,38 @@
       </circle>
 
 
-      <circle cx="134" cy="164" fill="white" r="3"><animate attributeName="opacity" from="1" to="0" dur="18s" begin="press.end" fill="freeze" /></circle>
-      <circle cx="235" cy="101" fill="white" r="3"><animate attributeName="opacity" from="1" to="0" dur="18s" begin="press.end" fill="freeze"/></circle>
-      <circle cx="545" cy="156" fill="white" r="3"><animate attributeName="opacity" from="1" to="0" dur="18s" begin="press.end"  fill="freeze"/></circle>
-      <circle cx="162" cy="243" fill="white" r="3"><animate attributeName="opacity" from="1" to="0" dur="18s" begin="press.end" fill="freeze"/></circle>
-      <circle cx="295" cy="178" fill="white" r="3"><animate attributeName="opacity" from="1" to="0" dur="18s" begin="press.end" fill="freeze"/></circle>
-      <circle cx="493" cy="210" fill="white" r="3"><animate attributeName="opacity" from="1" to="0" dur="18s" begin="press.end" fill="freeze"/></circle>
-      <circle cx="270" cy="122" fill="white" r="3"><animate attributeName="opacity" from="1" to="0" dur="18s" begin="press.end" fill="freeze"/></circle>
-      <circle cx="302" cy="98" fill="white" r="3"><animate attributeName="opacity" from="1" to="0" dur="18s" begin="press.end" fill="freeze"/></circle>
-      <circle cx="345" cy="137" fill="white" r="3"><animate attributeName="opacity" from="1" to="0" dur="18s" begin="press.end" fill="freeze" /></circle>
-      <circle cx="190" cy="70" fill="white" r="3"><animate attributeName="opacity" from="1" to="0" dur="18s" begin="press.end" fill="freeze"/></circle>
-      <circle cx="534" cy="180" fill="white" r="3"><animate attributeName="opacity" from="1" to="0" dur="18s" begin="press.end" fill="freeze"/></circle>
-      <circle cx="429" cy="150" fill="white" r="3"><animate attributeName="opacity" from="1" to="0" dur="18s" begin="press.end" fill="freeze"/></circle>
-      <circle cx="14" cy="164" fill="white" r="3"><animate attributeName="opacity" from="1" to="0" dur="18s" begin="press.end" fill="freeze" /></circle>
-      <circle cx="75" cy="101" fill="white" r="3"><animate attributeName="opacity" from="1" to="0" dur="18s" begin="press.end" fill="freeze"/></circle>
-      <circle cx="45" cy="156" fill="white" r="3"><animate attributeName="opacity" from="1" to="0" dur="18s" begin="press.end"  fill="freeze"/></circle>
+
+
+      <circle cx="134" cy="164" fill="white" r="3"><animate attributeName="opacity" from="1" to="0" dur="18s" begin="press.end" fill="freeze"/>
+        <animate  attributeName="cy" from="164" to="340" repeatCount="indefinite"  dur="10s" begin="mouseover"/></circle>
+      <circle cx="235" cy="101" fill="white" r="3"><animate attributeName="opacity" from="1" to="0" dur="18s" begin="press.end" fill="freeze"/>
+      <animate attributeName="cy" from="101" to="340" repeatCount="indefinite"  dur="9s" begin="mouseover"/></circle>
+      <circle cx="545" cy="156" fill="white" r="3"><animate attributeName="opacity" from="1" to="0" dur="18s" begin="press.end"  fill="freeze"/>
+      <animate attributeName="cy" from="156" to="340" repeatCount="indefinite"  dur="8s" begin="mouseover"/></circle>
+      <circle cx="162" cy="243" fill="white" r="3"><animate attributeName="opacity" from="1" to="0" dur="18s" begin="press.end" fill="freeze"/>
+      <animate attributeName="cy" from="243" to="340" repeatCount="indefinite"  dur="5s" begin="mouseover"/></circle>
+      <circle cx="295" cy="178" fill="white" r="3"><animate attributeName="opacity" from="1" to="0" dur="18s" begin="press.end" fill="freeze"/>
+      <animate attributeName="cy" from="178" to="340" repeatCount="indefinite"  dur="10s" begin="mouseover"/></circle>
+      <circle cx="493" cy="210" fill="white" r="3"><animate attributeName="opacity" from="1" to="0" dur="18s" begin="press.end" fill="freeze"/>
+      <animate attributeName="cy" from="210" to="340" repeatCount="indefinite"  dur="7s" begin="mouseover"/></circle>
+      <circle cx="270" cy="122" fill="white" r="3"><animate attributeName="opacity" from="1" to="0" dur="18s" begin="press.end" fill="freeze"/>
+      <animate attributeName="cy" from="122" to="340" repeatCount="indefinite"  dur="8s" begin="mouseover"/></circle>
+      <circle cx="302" cy="98" fill="white" r="3"><animate attributeName="opacity" from="1" to="0" dur="18s" begin="press.end" fill="freeze"/>
+      <animate attributeName="cy" from="98" to="340" repeatCount="indefinite"  dur="8s" begin="mouseover"/></circle>
+      <circle cx="345" cy="137" fill="white" r="3"><animate attributeName="opacity" from="1" to="0" dur="18s" begin="press.end" fill="freeze" />
+      <animate attributeName="cy" from="137" to="340" repeatCount="indefinite"  dur="9s" begin="mouseover"/></circle>
+      <circle cx="190" cy="70" fill="white" r="3"><animate attributeName="opacity" from="1" to="0" dur="18s" begin="press.end" fill="freeze"/>
+      <animate attributeName="cy" from="70" to="340" repeatCount="indefinite"  dur="5s" begin="mouseover"/></circle>
+      <circle cx="534" cy="180" fill="white" r="3"><animate attributeName="opacity" from="1" to="0" dur="18s" begin="press.end" fill="freeze"/>
+      <animate attributeName="cy" from="180" to="340" repeatCount="indefinite"  dur="8s" begin="mouseover"/></circle>
+      <circle cx="429" cy="150" fill="white" r="3"><animate attributeName="opacity" from="1" to="0" dur="18s" begin="press.end" fill="freeze"/>
+      <animate attributeName="cy" from="150" to="340" repeatCount="indefinite"  dur="6s" begin="mouseover"/></circle>
+      <circle cx="14" cy="164" fill="white" r="3"><animate attributeName="opacity" from="1" to="0" dur="18s" begin="press.end" fill="freeze" />
+      <animate attributeName="cy" from="164" to="340" repeatCount="indefinite"  dur="5s" begin="mouseover"/></circle>
+      <circle cx="75" cy="101" fill="white" r="3"><animate attributeName="opacity" from="1" to="0" dur="18s" begin="press.end" fill="freeze"/>
+      <animate attributeName="cy" from="101" to="340" repeatCount="indefinite"  dur="9s" begin="mouseover"/></circle>
+      <circle cx="45" cy="156" fill="white" r="3"><animate attributeName="opacity" from="1" to="0" dur="18s" begin="press.end"  fill="freeze"/>
+      <animate attributeName="cy" from="156" to="340" repeatCount="indefinite"  dur="7s" begin="mouseover"/></circle>
 
 
       <rect x="0" y="340" fill="white" width="600" height="75" />
@@ -62,17 +84,13 @@
       <polygon points="450,240 410,295 490,295 " fill="green"/>
       <rect x="440" y="295" width="20" height="45" fill="chocolate" />
 
-      <circle cx="300" cy="220" r="20" fill="white" ><animate id="hee" attributeName="r" from="20" to="0" dur="10s" begin="circle2.end"/><animate attributeName="cy" from="220" to="260" dur="5s" begin="circle2.end" /> </circle>
-      <circle cx="300" cy="260" r="25" fill="white" ><animate id="haw" attributeName="r" from="25" to="0" dur="10s" begin="circle2.end"/><animate attributeName="cy" from="260" to="300" dur="5s" begin="circle2.end" /></circle>
-      <circle cx="300" cy="310" r="30" fill="white" ><animate id="naw" attributeName="r" from="30" to="0" dur="10s" begin="circle2.end"/><animate attributeName="cy" from="310" to="330" dur="5s" begin="circle2.end" /></circle>
-      <circle cx="290" cy="220" r="4" fill="black" ><animate attributeName="cy" from="220" to="350" dur="2s" begin="hee.end" fill="freeze"/><animate attributeName="cy" from="220" to="350" dur="2s" begin="hee.end" fill="freeze"/>
-        <animate attributeName="cx" from="290" to="300" dur="5s" begin="circle2.end"/><animate attributeName="cy" from="300" to="30" dur="5s" begin="circle2.end"/></circle>
-      <circle cx="310" cy="220" r="4" fill="black" ><animate attributeName="cy" from="220" to="350" dur="2s" begin="hee.end" fill="freeze"/><animate attributeName="cy" from="220" to="350" dur="2s" begin="hee.end" fill="freeze"/>
-        <animate attributeName="cx" from="290" to="300" dur="5s" begin="circle2.end"/><animate attributeName="cy" from="300" to="30" dur="5s" begin="circle2.end"/></circle>
-      <circle cx="300" cy="260" r="4" fill="black" ><animate attributeName="cy" from="260" to="350" dur="2s" begin="haw.end" fill="freeze"/><animate attributeName="cy" from="220" to="350" dur="2s" begin="hee.end" fill="freeze"/>
-        <animate attributeName="cy" from="300" to="300" dur="5s" begin="circle2.end"/></circle>
-      <circle cx="300" cy="310" r="4" fill="black" ><animate attributeName="cy" from="310" to="350" dur="2s" begin="naw.end" fill="freeze"/><animate attributeName="cy" from="220" to="350" dur="2s" begin="hee.end" fill="freeze"/>
-        <animate attributeName="cy" from="300" to="30" dur="5s" begin="circle2.end"/></circle>
+      <circle cx="300" cy="220" r="20" fill="white" ><animate id="hee" attributeName="r" from="20" to="0" dur="10s" fill="freeze" begin="circle2.end"/><animate attributeName="cy" from="220" to="330" dur="7.5s" fill="freeze" begin="circle2.end" /> </circle>
+      <circle cx="300" cy="260" r="25" fill="white" ><animate id="haw" attributeName="r" from="25" to="0" dur="10s" fill="freeze" begin="circle2.end"/><animate attributeName="cy" from="260" to="330" dur="7s" fill="freeze" begin="circle2.end" /></circle>
+      <circle cx="300" cy="310" r="30" fill="white" ><animate id="naw" attributeName="r" from="30" to="0" dur="9s" fill="freeze" begin="circle2.end"/><animate attributeName="cy" from="310" to="330" dur="7s" fill="freeze" begin="circle2.end" /></circle>
+      <circle cx="290" cy="220" r="4" fill="black" ><animate attributeName="cy" from="220" to="340" dur="7s" begin="circle2.end" fill="freeze"/></circle>
+      <circle cx="310" cy="220" r="4" fill="black" ><animate attributeName="cy" from="220" to="340" dur="7s" begin="circle2.end" fill="freeze"/></circle>
+      <circle cx="300" cy="260" r="4" fill="black" ><animate attributeName="cy" from="260" to="340" dur="6s" begin="circle2.end" fill="freeze"/></circle>
+      <circle cx="300" cy="310" r="4" fill="black" ><animate attributeName="cy" from="310" to="340" dur="6s" begin="circle2.end" fill="freeze"/></circle>
 
 
       </svg>
